@@ -34,6 +34,7 @@ function isPalindroma(parola) {
   console.log("Numero computer:", numeroComputer);
   console.log("Somma:", somma);
   //scelte in base ai numeri scritti in maniera precedente e quello del computer
+  let risultato
   if (
     (sceltaUtente === "pari" && isPari(somma)) ||
     (sceltaUtente === "dispari" && !isPari(somma))
@@ -41,4 +42,6 @@ function isPalindroma(parola) {
     alert("Hai vinto!");
   } else {
     alert("Hai perso!");
+
+    return risultato
   }
