@@ -1,4 +1,4 @@
-// chiediamo all'utente di inserire una parola per vedere se e palindroma
+//impostiamo la funzione per vedere se e la parola e palindroma
 
 
 
@@ -9,7 +9,7 @@ function isPalindroma(parola) {
     }
     return parola === parolaInversa;
   }
-  
+  // chiediamo all'utente di inserire una parola per vedere se e palindroma
   const parolaUtente = prompt("Inserisci una parola:");
   if (isPalindroma(parolaUtente)) {
     alert("La parola è palindroma.");
